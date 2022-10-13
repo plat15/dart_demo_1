@@ -30,9 +30,9 @@ void main() {
 
   taiKhoan[tkSo02].inTk();
 
-  // print('Nhap tai khoan muon in: ');
-  // int vt = int.parse(stdin.readLineSync()!);
-  // taiKhoan[vt].inTk();
+  print('Nhap tai khoan muon in: ');
+  int vt = int.parse(stdin.readLineSync()!);
+  taiKhoan[vt].inTk();
 }
 
 //tao account co 3 bien id name balance
